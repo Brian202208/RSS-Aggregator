@@ -8,11 +8,13 @@ This project aggregates RSS feeds from various URLs and saves them in a posts da
 - **Post Management:** Create, follow, and unfollow posts.
 - **RSS Feed Aggregation:** Utilize Go routines for multithreaded processing when fetching RSS feeds.
 - **Database Management:** Use Goose for database migration and SQLC for query generation.
+- **Routing:** Implement routing with `chi` for efficient HTTP request handling.
 
 ## Technologies Used
 
 - **Go Routines:** For efficient multithreading during RSS feed fetching.
 - **Goose:** To handle database migrations seamlessly.
 - **SQLC:** For generating type-safe SQL queries.
+- **chi:** For lightweight and efficient routing.
 
 This project ensures robust and efficient management of RSS feeds and user interactions.
